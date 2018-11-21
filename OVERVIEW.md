@@ -8,7 +8,7 @@ Semantic Web is a layer upon the World Wide Web which allows a better reuse of c
 Large amount of online information is kept inside proprietary silos walled with access control. Data inside silos is created by people but owned by corporations. The Semantic / Indie Web movement wants to remedy this situation by giving back data ownership to its creators.
 
 ### Data Value
-Content on the web is untrustful in most cases. The source of the information is mostly unknown. It’s hard to decide if an information is true, false, original or copied from another source. When the source is unknown the value of the information is questionable.
+Content on the web is untrustworthy in most cases. The source of the information is mostly unknown. It’s hard to decide if an information is true, false, original or copied from another source. When the source is unknown the value of the information is questionable.
 
 Information wants to be free and in the same way expensive. World Wide Web managed to make it free, Semantic Web tries to add value to it.
 
@@ -32,7 +32,7 @@ Every piece of content a.) with an identified author b.) equipped with semantic 
 ## The IndieWeb Solution
 Indieweb takes the Semantic Web proposal and implements on its own way, sometimes following standards, sometimes inventing them.
 
-Implementing the IndieWeb solution can be a very tedious task.
+Implementing the IndieWeb solution can be a [very tedious task](https://vincentp.me/articles/2018/11/14/20-00/).
 
 ### Identity
 #### Web sign-in / Rel-Me

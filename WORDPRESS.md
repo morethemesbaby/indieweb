@@ -58,7 +58,7 @@ For example in the main feed after every article a summary of content growth can
 ### Content to data
 The only technology I’m aware of capable to convert monolithic content into atomic chunks is Gutenberg. Gutenberg decomposes post content into independent blocks.
 
-This technology is new and not ready for prime time yet. However if one creates her own custom blocks not relying on the official set it can be made to work.
+This technology is new and [not ready for prime time yet](https://morethemes.baby/2018/11/14/playing-with-gutenberg-and-react/). However if one creates her own custom blocks not relying on the official set it can be made to work.
 
 ### Annotating data
 Right now an IndieWeb block set can be created which can deconstruct monolithic post / page content into annotated blocks.
@@ -95,4 +95,4 @@ Ideally, a future compatible, easily implementable IndieWeb would look like:
 
 1. A React based, platform independent theme.
 2. A WordPress / Gutenberg based set of blocks to annotate any type of content with any standard (Microformats, JSON-LD, or anything which comes up in the future)
-3. A set of data servers with public APIs syndicating / federating / managing all interactions with annotated data. Both 1.) and 2.) would rely on it. 
+3. A set of data servers with public APIs syndicating / federating / managing all interactions with annotated data. Both 1.) and 2.) would rely on it.
