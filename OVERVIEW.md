@@ -4,27 +4,27 @@ IndieWeb is an independent attempt to implement concepts of the Semantic Web.
 ## Semantic Web
 Semantic Web is a layer upon the World Wide Web which allows a better reuse of content and data.
 
-### Data Ownership
-Large amount of online information is kept inside proprietary silos walled with access control. Data inside silos is created by people but owned by corporations. The Semantic / Indie Web movement wants to remedy this situation by giving back data ownership to its creators.
+### Information Ownership
+Large amount of online information is kept inside proprietary silos walled with access control. Information inside silos is created by people but owned by corporations. The Semantic / Indie Web movement wants to remedy this situation by giving back information ownership to its creators.
 
-### Data Value
-Content on the web is untrustworthy in most cases. The source of the information is mostly unknown. It’s hard to decide if an information is true, false, original or copied from another source. When the source is unknown the value of the information is questionable.
+### Information Value
+Information on the web is untrustworthy in most cases since the source of the information is mostly unknown. It’s hard to decide if an information is true, false, original or copied from another source. When the source is unknown the value of the information is questionable.
 
 Information wants to be free and in the same way expensive. World Wide Web managed to make it free, Semantic Web tries to add value to it.
 
 ### Information To Data
-On web we have more information than data. Information is plain text, image or video understandable only by humans when data is structured, reusable, and understandable also by machines.
+On web we have more information than data. Information is plain content understandable only by humans when data is structured, reusable, and understandable also by machines.
 
 Semantic web transforms content, information into data and makes it generally useful.
 
 ## The Semantic Web Proposal
-Semantic Web proposes the following solutions to transform content to data, make it reusable, and attach ownership and value.
+Semantic Web proposes the following solutions to transform information to data, make it reusable, and attach ownership and value.
 
 ### Identity
 The identity of an author is proven across all the web.
 
 ### Annotation
-The content an author creates is annotated and transformed into data.
+Even the smallest piece of content an author creates is annotated and transformed into data using semantic metadata.
 
 ### Syndication / Federation
 Every piece of content a.) with an identified author b.) equipped with semantic metadata can freely circulate and grow on the web and return to its author.
@@ -35,6 +35,7 @@ Indieweb takes the Semantic Web proposal and implements on its own way, sometime
 Implementing the IndieWeb solution can be a [very tedious task](https://vincentp.me/articles/2018/11/14/20-00/).
 
 ### Identity
+
 #### Web sign-in / Rel-Me
 Identifies people through their websites instead of their email in a more private way. It is a successor of OpenID which is shut down in 2018 in spite powering over 1 billion accounts in 2016.
 
@@ -45,7 +46,8 @@ IndieAuth is supported by the W3C.
 
 ### Annotation
 There are four semantic annotation formats that can be used in HTML documents: Microformats, RDFa, Microdata and JSON-LD.
-Microformats 2
+
+#### Microformats 2
 It’s a non-standard, community supported format. It seems its focus is on simplicity of use above else. Not sure if adheres to any standard ontologies / vocabularies like Schema.org however with a tool, W3C's GRDDL it can be made compatible with the Semantic Web.
 
 All other three formats are standardised / associated with a body. Microformats is not. Why IndieWeb is forcing its usage?
@@ -76,11 +78,11 @@ Equip your content with actionable elements like a Like button, reply or repost.
 This makes your own website in the same way interactive and actionable like other social networks.
 
 #### MicroPub
-Let third parties create, update, and delete posts or other content on your own website.
+A protocol to independently manage content.
 
-It’s more about having multiple ways to manage your site than about collaborative editing. Like use your phone to manage content on your website without logging in to the dashboard. Maybe your site even has no dashboard.
+A common practice is that content is managed through a content management system. Lately many websites has no such content management system attached.
 
-It’s a W3C recommendation API.
+For them there it is MicroPub which is a W3C recommendation API.
 
 #### WebSub
 Notify others when your site changes. It’s the newer version of PubSubHub, a distributed publish-subscribe technology.
